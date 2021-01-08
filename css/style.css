@@ -1,7 +1,7 @@
 
 .banner{
     height: 100vh;
-    background-image: url('/images/3d_wallpaper_07_002.jpg');
+    background-image: url('../images/3d_wallpaper_07_002.jpg');
     background-repeat: no-repeat;
     background-size: cover;    
     /* position: relative; */
