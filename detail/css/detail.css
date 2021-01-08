@@ -1,0 +1,89 @@
+.detail-section{
+    padding: 2rem 0;
+}
+.detail-section p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+.detail-section form label{
+    display: inline-block;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.detail-section form input[type = "number"]{
+    border: 1px solid #efefef;
+    font-size: 0.9;
+    font-weight: 300;
+}
+.detail-section form input[type  = "submit"]{
+    margin: 1rem 0;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    background-color: #f5f5f5;
+    transition: all 0.45s ease-in-out;
+}
+.detail-section form input[type  = "submit"]:hover,
+.detail-section form input[type  = "submit"]:active{
+    background-color: #efefef;
+}
+.detail-section button{
+    font-size: 0.7rem;
+    padding: 2px 4px;
+    margin-left: 0.5rem;
+}
+.detail-section ul{
+    list-style: none;
+    /* padding-left: 1rem; */
+}
+.detail-section ul li{
+    font-size: 0.8rem;
+}
+.seller-info{
+    display: flex;
+}
+.seller-ratings{
+    padding-right: 1rem;
+    
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+    .details-columns{
+        margin-bottom: 2rem;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){
+    .details-columns{
+        margin-bottom: 2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px){
+  
+ 
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/******************/
+@media(max-width:768px){
+    
+}
+
+
+

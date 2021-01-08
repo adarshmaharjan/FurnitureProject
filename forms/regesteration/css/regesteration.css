@@ -1,0 +1,38 @@
+.regesteration-section{
+    padding: 2rem 0;
+    height: 100vh;
+}
+.regesteration-content{
+
+}
+.regesteration-content h4{
+    text-align: center;
+}
+.regesteration-content form{
+    width: 50%;
+    margin: 0 auto;
+}
+.regesteration-content form label{
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 300;
+
+}
+.regesteration-content form input[type = "text"],
+.regesteration-content form input[type = "password"],
+.regesteration-content form input[type = "email"]{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #efefef;
+}
+.regesteration-content form input[type = "submit"]{
+    padding: 0.5rem 1rem;
+    background-color: #efefef;
+    transition: all 0.45s ease-in-out;
+}
+.regesteration-content form input[type = "submit"]:hover,
+.regesteration-content form input[type = "submit"]:active{
+    background-color: #e8e8e8;
+    cursor: pointer;
+}

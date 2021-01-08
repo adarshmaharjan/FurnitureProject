@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COM</title>
+    <!--icon-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <!--shared-CSS-->
+    <link rel="stylesheet" href="/css/shared.css">
+    <!--Login-->
+    <link rel="stylesheet" href="./css/detail.css">
+</head>
+<body>
+    <!---shared-part-start-->
+    <!--Overlay-->
+    <div id = "myNav" class="overlay">
+        <div class="overlay-nav-contents">
+            <div class="overlay-closebtn" onclick="closeNav()"><i class="fas fa-times"></i></div>
+            <div class="overlay-logo logo">E-COM</div>
+            <ul>
+                <ul>
+                    <li><a href="/content/content.html">Home</a></li>
+                    <li><a href="/content/content.html">Office</a></li>
+                    <li><a href="/content/content.html">Outdoor</a></li>
+                    <li><a href="/content/content.html">Kids</a></li>
+                    <li><a href="/content/content.html">Brand</a></li>
+                    <li><a href="/content/content.html">New</a></li>
+        
+                </ul>
+    
+            </ul>
+
+        </div>
+        
+    </div>
+
+    
+    <header>
+       <div class="container">
+            
+            <nav>
+                <div class="burger-button" onclick="showNav()">
+                    <i class="fas fa-align-justify"></i>
+                </div>
+                <div class="logo"><a href="/index.html">E-COM</a></div>
+                <div class="spacer"></div>
+                <ul>
+                    <li class="search-bar">
+                        <form action=" ">
+                            <input type="search">
+                            <i class="fas fa-search"></i>
+                        </form>
+                       
+                    </li>
+                    <li>
+                        <a href = "/forms/login/login.html">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </li>
+                    <li><a  href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </nav>
+           
+        </div>
+        <div class="catagory" id = "sticky-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="catagory-dropdown">
+                            <div class="catagory-content">Home</div>
+                            <div class="catagory-dropdown-content">
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="catagory-dropdown">
+                            <div class="catagory-content">Office</div>
+                            <div class="catagory-dropdown-content">
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="catagory-dropdown">
+                            <div class="catagory-content">Outdoor</div>
+                            <div class="catagory-dropdown-content">
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="catagory-dropdown">
+                            <div class="catagory-content">Kids</div>
+                            <div class="catagory-dropdown-content">
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="catagory-dropdown">
+                            <div class="catagory-content">Brand</div>
+                            <div class="catagory-dropdown-content">
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="catagory-dropdown">
+                            <div class="catagory-content">New</div>
+                            <div class="catagory-dropdown-content">
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+           </div>
+        </div>
+    </header>
+    <!---shared-part-end-->
+    <main>
+        <section class="detail-section">
+            <div class="container">
+                <h2>Product Titile</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="details-columns">
+                            <img src="/images/beds/110030398.jpg" class="img-fluid">
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="details-columns">
+                            <h3>Price</h3>
+                            <p>This price is inclusive VAT</p>
+                            <form action="#">
+                                <label>Quantity:</label>
+                                <input type="number" name="quantity" id = "quantity">
+                                <input type="submit" value="add to cart">
+                            </form>
+                            <button>Add to wishlist</button>
+                            <button>Add to compare</button>
+                            <button>Email</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="details-columns">
+                            <h6>Returns and warrenty</h6>
+                            <ul>
+                                <li>100% authentic</li>
+                                <li>14 days easy return</li>
+                                <li>Warrenty Avilable</li>
+    
+                            </ul>
+                            <h6>Sold by</h6>
+                            <h4>Product Seller</h4>
+                            <div class="seller-info">
+                                <div class="seller-ratings">
+                                    <div>Rating</div>
+                                    <div>84%</div>
+                                </div>
+                                <div class = "seller-ratings">
+                                    <div>Shipiment</div>
+                                    <div>90%</div>
+                                </div>
+                                <div class="seller-ratings">
+                                    <div>Response</div>
+                                    <div>95%</div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                    </div>
+                </div>
+                <div class="product-informations">
+                    <h4>Product Information</h4>
+                    <ul>
+                        <li>Color: White</li>
+                        <li>Brand: Brand Name</li>
+                        <li>Material: Plastic</li>
+                        <li>Size(L*W*H):28.5 X 21.5 X 22 CM</li>
+
+                    </ul>
+                </div>
+               
+            </div>
+        </section>
+    </main>
+    <!---shared-part-start-->
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-2"><a href = "#">Terms and condition</a></div>
+                <div class="col-md-2"><a href = "#"> Contacts</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/main.js"></script>
+    <!---shared-part-end-->
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COM</title>
+    <!--icon-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <!--shared-CSS-->
+    <link rel="stylesheet" href="/css/shared.css">
+    <!--regesteration-css-->
+    <link rel="stylesheet" href="./css/regesteration.css">
+</head>
+<body>
+    <!---shared-part-start-->
+    <!--Overlay-->
+    <div id = "myNav" class="overlay">
+        <div class="overlay-nav-contents">
+            <div class="overlay-closebtn" onclick="closeNav()"><i class="fas fa-times"></i></div>
+            <div class="overlay-logo logo">E-COM</div>
+            <ul>
+                <ul>
+                    <li><a href="/content/content.html">Home</a></li>
+                    <li><a href="/content/content.html">Office</a></li>
+                    <li><a href="/content/content.html">Outdoor</a></li>
+                    <li><a href="/content/content.html">Kids</a></li>
+                    <li><a href="/content/content.html">Brand</a></li>
+                    <li><a href="/content/content.html">New</a></li>
+        
+                </ul>
+    
+            </ul>
+
+        </div>
+        
+    </div>
+
+    
+    <header>
+       <div class="container">
+            
+            <nav>
+                <div class="burger-button" onclick="showNav()">
+                    <i class="fas fa-align-justify"></i>
+                </div>
+                <div class="logo"><a href="/index.html">E-COM</a></div>
+                <div class="spacer"></div>
+                <ul>
+                    <li class="search-bar">
+                        <form action=" ">
+                            <input type="search">
+                            <i class="fas fa-search"></i>
+                        </form>
+                       
+                    </li>
+                    <li>
+                        <a href = "/forms/login/login.html">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </li>
+                    <li><a  href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </nav>
+           
+        </div>
+        <div class="catagory" id = "sticky-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="catagory-dropdown">
+                            <div class="catagory-content">Home</div>
+                            <div class="catagory-dropdown-content">
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="catagory-dropdown">
+                            <div class="catagory-content">Office</div>
+                            <div class="catagory-dropdown-content">
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="catagory-dropdown">
+                            <div class="catagory-content">Outdoor</div>
+                            <div class="catagory-dropdown-content">
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="catagory-dropdown">
+                            <div class="catagory-content">Kids</div>
+                            <div class="catagory-dropdown-content">
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="catagory-dropdown">
+                            <div class="catagory-content">Brand</div>
+                            <div class="catagory-dropdown-content">
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="catagory-dropdown">
+                            <div class="catagory-content">New</div>
+                            <div class="catagory-dropdown-content">
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+           </div>
+        </div>
+    </header>
+    <!---shared-part-end-->
+
+    <main>
+        <section class="regesteration-section">
+            <div class="container">
+                <div class="regesteration-content">
+                    <h4>Create new user account</h4>
+                    <form action="">
+                        <label>Name:</label>
+                        <input type="text" name="name" id = "name">
+                        <label>Email:</label>
+                        <input type="email" name="email" id = "email">
+                        <label>Password:</label>
+                        <input type="password" name="password" id = "password">
+                        <label>Conformation-Password:</label>
+                        <input type="password" name="conformation" id = "conformation">
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!---shared-part-start-->
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-2"><a href = "#">Terms and condition</a></div>
+                <div class="col-md-2"><a href = "#"> Contacts</a></div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="/js/main.js"></script>
+    <!---shared-part-end-->
+
+</body>
+</html>

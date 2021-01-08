@@ -7,22 +7,26 @@
     <!--icon-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!--Bootstrap-->
-    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <!--CSS-->
-    <link rel="stylesheet" href="/css/style.css">
+    <!--shared-css-->
+    <link rel="stylesheet" href="./css/shared.css">
+    <!--style css-->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!--Overlay-->
     <div id = "myNav" class="overlay">
         <div class="overlay-nav-contents">
             <div class="overlay-closebtn" onclick="closeNav()"><i class="fas fa-times"></i></div>
             <div class="overlay-logo logo">E-COM</div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Office</a></li>
-                <li><a href="#">Outdoor</a></li>
-                <li><a href="#">Kids</a></li>
-                <li><a href="#">Brand</a></li>
-                <li><a href="#">New</a></li>
+                <li><a href="/content/content.html">Home</a></li>
+                <li><a href="/content/content.html">Office</a></li>
+                <li><a href="/content/content.html">Outdoor</a></li>
+                <li><a href="/content/content.html">Kids</a></li>
+                <li><a href="/content/content.html">Brand</a></li>
+                <li><a href="/content/content.html">New</a></li>
     
             </ul>
 
@@ -38,26 +42,37 @@
                 <div class="burger-button" onclick="showNav()">
                     <i class="fas fa-align-justify"></i>
                 </div>
-                <div class="logo">E-COM</div>
+                <div class="logo"><a href="/index.html">E-COM</a></div>
                 <div class="spacer"></div>
                 <ul>
-                    <li><a href = "#"><i class="fas fa-user"></i><a></a></li>
-                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li class="search-bar">
+                        <form action=" ">
+                            <input type="search">
+                            <i class="fas fa-search"></i>
+                        </form>
+                       
+                    </li>
+                    <li>
+                        <a href = "/forms/login/login.html">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </li>
+                   
                     <li><a  href="#"><i class="fas fa-shopping-cart"></i></a></li>
                 </ul>
             </nav>
            
         </div>
-        <div class="catagory">
+        <div class="catagory" id = "sticky-bar">
             <div class="container">
                 <div class="row">
                     <div class="col">
                         <div class="catagory-dropdown">
                             <div class="catagory-content">Home</div>
                             <div class="catagory-dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
                             </div>
                         </div>
                     </div>
@@ -65,9 +80,9 @@
                         <div class="catagory-dropdown">
                             <div class="catagory-content">Office</div>
                             <div class="catagory-dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
                             </div>
                         </div>
                     </div>
@@ -75,9 +90,9 @@
                         <div class="catagory-dropdown">
                             <div class="catagory-content">Outdoor</div>
                             <div class="catagory-dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
                             </div>
                         </div>
                     </div>
@@ -85,9 +100,9 @@
                         <div class="catagory-dropdown">
                             <div class="catagory-content">Kids</div>
                             <div class="catagory-dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
                             </div>
                         </div>
                     </div>
@@ -95,9 +110,9 @@
                         <div class="catagory-dropdown">
                             <div class="catagory-content">Brand</div>
                             <div class="catagory-dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
                             </div>
                         </div>
                     </div>
@@ -105,9 +120,9 @@
                         <div class="catagory-dropdown">
                             <div class="catagory-content">New</div>
                             <div class="catagory-dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="/content/content.html">Link 1</a>
+                                <a href="/content/content.html">Link 2</a>
+                                <a href="/content/content.html">Link 3</a>
                             </div>
                         </div>
                     </div>
@@ -127,113 +142,149 @@
             </div>
         </section>
 
-        <section class="gallary">
+        <section class="gallary-bed gallary">
+            
             <div class = "container">
-                <h2>BED</h2>
+                <h2>Bed</h2>
                 <div class="row">
-                    <div class="col-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="gallary-content">
                             <img src="./images/beds/110030398.jpg" alt="gallary-image">
-                            <a>Product Name</a>
-                            <a>Price</a>
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
                         </div>
                         
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="gallary-content">
-                            <img src="./images/beds/110030398.jpg" alt="gallary-image">
-                            <a>Product Name</a>
-                            <a>Price</a>
+                            <img src="./images/beds/110030402.jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
                         </div>
                         
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="gallary-content">
-                            <img src="./images/beds/110030398.jpg" alt="gallary-image">
-                            <a>Product Name</a>
-                            <a>Price</a>
+                            <img src="./images/beds/110030404.jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="gallary-content">
+                            <img src="./images/beds/120020299.jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
                         </div>
                         
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="gallary-content">
-                            <img src="./images/beds/110030398.jpg" alt="gallary-image">
-                            <a>Product Name</a>
-                            <a>Price</a>
+                            <img src="./images/beds/120020299.jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
                         </div>
                         
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="gallary-content">
-                            <img src="./images/beds/110030398.jpg" alt="gallary-image">
-                            <a>Product Name</a>
-                            <a>Price</a>
+                            <img src="./images/beds/110030404.jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
                         </div>
                         
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="gallary-content">
+                            <img src="./images/beds/110030402.jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="gallary-content">
                             <img src="./images/beds/110030398.jpg" alt="gallary-image">
-                            <a>Product Name</a>
-                            <a>Price</a>
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
                         </div>
                         
                     </div>
                 </div>
                 <button>Show more</button>
             </div>
+        </section>
+        <section class="gallary-wardrob gallary">
+            
             <div class = "container">
-                <h2>BED</h2>
+                <h2>Wardrobe</h2>
                 <div class="row">
-                    <div class="col-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="gallary-content">
-                            <img src="./images/beds/110030398.jpg" alt="gallary-image">
-                            <a>Product Name</a>
-                            <a>Price</a>
+                            <img src="./images/wardrobe/110029579.jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html" >Price</a>
                         </div>
                         
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="gallary-content">
-                            <img src="./images/beds/110030398.jpg" alt="gallary-image">
-                            <a>Product Name</a>
-                            <a>Price</a>
+                            <img src="./images/wardrobe/110030307.jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
                         </div>
                         
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="gallary-content">
-                            <img src="./images/beds/110030398.jpg" alt="gallary-image">
-                            <a>Product Name</a>
-                            <a>Price</a>
+                            <img src="./images/wardrobe/110030359 .jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="gallary-content">
+                            <img src="./images/wardrobe/120020309.jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
                         </div>
                         
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="gallary-content">
-                            <img src="./images/beds/110030398.jpg" alt="gallary-image">
-                            <a>Product Name</a>
-                            <a>Price</a>
+                            <img src="./images/wardrobe/120020309.jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
                         </div>
                         
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="gallary-content">
-                            <img src="./images/beds/110030398.jpg" alt="gallary-image">
-                            <a>Product Name</a>
-                            <a>Price</a>
+                            <img src="./images/wardrobe/110030359 .jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
                         </div>
                         
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="gallary-content">
-                            <img src="./images/beds/110030398.jpg" alt="gallary-image">
-                            <a>Product Name</a>
-                            <a>Price</a>
+                            <img src="./images/wardrobe/110030307.jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="gallary-content">
+                            <img src="./images/wardrobe/110029579.jpg" alt="gallary-image">
+                            <a href="/detail/detail.html">Product Name</a>
+                            <a href="/detail/detail.html">Price</a>
                         </div>
                         
                     </div>
@@ -245,8 +296,8 @@
     <footer>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-2"><a href = "#">Terms and condition</a></div>
-                <div class="col-md-2"><a href = "#"> Contacts</a></div>
+                <div class="col-md-2"><a href = "/terms and condition/termsandcondition.html">Terms and condition</a></div>
+                <div class="col-md-2"><a href = "/contact/contact.html"> Contacts</a></div>
             </div>
         </div>
     </footer>

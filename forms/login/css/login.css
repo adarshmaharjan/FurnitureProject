@@ -1,0 +1,68 @@
+.user-details{
+    height: 100vh;
+    
+    padding: 2rem 0;
+}
+
+
+.login form{
+    
+    padding: 2rem 1rem;
+}
+
+.user-details h4:after{
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #e8e8e8;
+    margin: 0.5rem 0;
+}
+
+.login form label{
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5rem ;
+}
+.login form input[type = "email"],
+.login form input[type = "password"]{
+    margin-bottom: 0.5rem ;
+
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+    width: 100%;
+}
+.login form input[type = "submit"]{
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    transition: all 0.45s ease-in-out;
+}
+.login form input[type = "submit"]:hover,
+.login form input[type = "submit"]:active{
+    background-color: #d4d4d4;
+}
+.login a{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+ 
+
+}
+.new-account{
+    padding: 2rem 1rem;
+}
+.new-account p{
+    /* margin: 0.5rem 0; */
+    font-size: 0.9rem;
+    font-weight: 300;
+
+}
+.new-account a{
+    padding: 0.5rem 1rem;
+    background-color: #e8e8e8;
+    transition: all 0.45s ease-in-out;
+}
+.new-account a:hover,
+.new-account a:active{
+    background-color: #d4d4d4;
+}
